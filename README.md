@@ -19,7 +19,9 @@ pip install -r dependencies.txt
      python solution.py -st post_comments -i dataset.jsonl -o result.jsonl
      ```
    - Для комментарией с косвенным отношением к посту:
+     ```shell
      python solution.py -st topic_comments -i dataset.jsonl -o result.jsonl
+     ```
 
-   где dataset.jsonl и result.jsonl названия датасета, который вы положили в data и датасет, который сохранится также в папке data с суммаризацией.
+   где ```dataset.jsonl``` и ```result.jsonl``` названия датасета, который вы положили в ```data``` и датасет, который сохранится также в папке ```data``` с суммаризацией.
 4) Заберите готовый файл из папки data
